@@ -1762,7 +1762,7 @@
             },
             {
                 "translate": "نه تنها x که / بلکه x (نیز)",
-                "conditions": "اگه but نداده بود باید جاش گاما باشه و گاما حرف ربط میگیریم",
+                "conditions": "اگه but نداده بود باید جاش کاما باشه و کاما حرف ربط میگیریم",
                 "priority": 2
             }
         ],
@@ -2200,6 +2200,54 @@
             ],
             "structure": "S [NP₁ [m₁ [These] noun [transfusions]] VP [v¹ [were given]]] PP [Pᵣₑₚ [by] VP [adv [directly] v² [linking] np₁ [m₁ [the] noun [vein] of [a donor]] <-> np₂ [m₁⇄np [that] of np[m₁[the] noun[recipient]]]]] punct [.]",
             "translation": "این انتقال‌ها داده می‌شد توسط مستقیم وصل کردن رگِ اهداکننده به رگِ گیرنده."
+        },
+        {
+            "dataset": [
+                {
+                    "text": "The continuous drip method, in which blood flows from a flask, was introduced by Hugh Marriott and Alan Kekwick at the Middlesex Hospital, London, in 1935.",
+                    "tokens": [
+                        "The",
+                        "continuous drip method",
+                        ",",
+                        "in which",
+                        "blood",
+                        "flows",
+                        "from",
+                        "a flask",
+                        ",",
+                        "was introduced",
+                        "by",
+                        "Hugh Marriott and Alan Kekwick",
+                        "at",
+                        "the Middlesex Hospital, London",
+                        "in",
+                        "1935",
+                        "."
+                    ],
+                    "tags": [
+                        "m₁",
+                        "np",
+                        "punct",
+                        "Pᵣₑₚ",
+                        "np",
+                        "v¹",
+                        "Pᵣₑₚ",
+                        "np",
+                        "punct",
+                        "v¹",
+                        "Pᵣₑₚ",
+                        "np",
+                        "Pᵣₑₚ",
+                        "np",
+                        "Pᵣₑₚ",
+                        "m1",
+                        "punct"
+                    ],
+                    "structure": "S [NP₁ [m₁ [The] np [continuous drip method]] punct [,] RelativeClause [Pᵣₑₚ [in which] NP [np [blood]] VP [v¹ [flows] PP [Pᵣₑₚ [from] NP [a flask]]]] punct [,] VP [v¹ [was introduced] PP [Pᵣₑₚ [by] NP [Hugh Marriott and Alan Kekwick]] PP [Pᵣₑₚ [at] NP [the Middlesex Hospital, London]] PP [Pᵣₑₚ [in] m₁ [1935]] punct [.]]",
+                    "translation": "روش قطره‌ای مستمر، که در آن خون از یک مخزن جریان می‌یابد، توسط هیوج ماریوت و آلن کِک‌ویک در بیمارستان میدلسکس لندن در سال ۱۹۳۵ معرفی شد."
+                }
+            ]
         }
+
     ]
 }
