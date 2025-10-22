@@ -534,7 +534,7 @@
                 "معترضه ای است که بین این علائم بیاد . - یا . , یا <. > یا \" \". یا {. } یا [. ] یا : . بیاد",
                 "معترضه اول جمله نمییاد یا وسط جمله یا آخر جمله",
                 ": . وسط جمله نمییاد",
-                "معترضه الزاما اول باید حتما از جمله حذف شود؛ خود جمله ترجمه کنیم؛ آخر سر معترضه سرجاش ترجمه میکنیم",
+                "معترضه الزاما اول باید حتما از جمله حذف(نادیده میگیریم چون درک اصل جمله را مختل میکند) شود؛ خود جمله ترجمه کنیم؛ آخر سر معترضه سرجاش ترجمه میکنیم",
                 "معترضه ای است ساخت درونیش np بلافاصله بعد از اسم مییاد بهش میگیم m₄ و با دو واژه یعنی، یا ترجمه میشه",
                 "m₄ اگه با حرف بزرگ بیاد یا عدد بعد از اسم یا تغییر فونت میتونه علامت نداشت باشه",
                 "بین فرمول جمله (S -> NP₁ vp) کاما بیاد کاما معترضه است و کاما دوم میاد قبل از vp",
@@ -2247,7 +2247,51 @@
                     "translation": "روش قطره‌ای مستمر، که در آن خون از یک مخزن جریان می‌یابد، توسط هیوج ماریوت و آلن کِک‌ویک در بیمارستان میدلسکس لندن در سال ۱۹۳۵ معرفی شد."
                 }
             ]
+        },
+        {
+            "dataset": [
+                {
+                    "text": "The discovery of the Rh system by Landsteiner and Alexander Wiener in 1940 was made because they tested human red cells with antisera (animal or human serum containing antibodies specific for one or more antigens) developed in rabbits and guinea pigs by immunization of the animals with the red cells of the rhesus monkey Macaca mulatta.",
+                    "tokens": [
+                        "The discovery",
+                        "of the Rh system",
+                        "by Landsteiner and Alexander Wiener",
+                        "in 1940",
+                        "was made",
+                        "because",
+                        "they tested",
+                        "human red cells",
+                        "with antisera",
+                        "(",
+                        "animal or human serum containing antibodies specific for one or more antigens",
+                        ")",
+                        "developed in rabbits and guinea pigs",
+                        "by immunization of the animals",
+                        "with the red cells of the rhesus monkey Macaca mulatta",
+                        "."
+                    ],
+                    "tags": [
+                        "m₁",
+                        "np",
+                        "PP",
+                        "Temporal Phrase",
+                        "v¹",
+                        "ADV",
+                        "v²",
+                        "np",
+                        "PP",
+                        "punct",
+                        "np",
+                        "punct",
+                        "v²",
+                        "PP",
+                        "PP",
+                        "punct"
+                    ],
+                    "structure": "S [NP₁ [m₁ [The discovery] PP [of the Rh system]] PP [by Landsteiner and Alexander Wiener] PP [in 1940] VP [v¹ [was made]]] A̅D̅V̅ [ADV [because] np1 [they] v² [tested] NP [human red cells] PP [with antisera]] punct [(] NP [animal or human serum containing antibodies specific for one or more antigens] punct [)] RT5 [while VP [v² [was developed] PP [in rabbits and guinea pigs] PP [by immunization of the animals] PP [with the red cells of the rhesus monkey Macaca mulatta]]] punct [.]]",
+                    "translation": "کشف سیستم Rh توسط لندشتاینر و الکساندر وینر در سال ۱۹۴۰ انجام شد، به سبب آن‌ها امتحان می‌کردند گلبول‌های قرمز انسان را با آنتی‌سروم‌ها (یعنی سرم حیوانی یا انسانی حاوی پادتن‌های خاص برای یک یا تعداد بیشتری آنتی‌ژن) در حالی که آن‌ها ایجاد شده بودند در خرگوش‌ها و خوکچه‌های هندی توسط ایمن‌سازی حیوانات با گلبول‌های قرمز میمون رزوس یعنی Macaca mulatta."
+                }
+            ]
         }
-
     ]
 }
