@@ -10,7 +10,7 @@
             "بینهایت m₄",
             "بینهایت m₅"
         ],
-        "formula": "NP -> np of np | (m₁)(m₂)(m₃)noun(m₄)(m₅)",
+        "formula": "NP -> np of np | (m₁)(m₂)(m₃)noun(m₄)(m₅) | m₁⇄np | m₂⇄np | RC⇄np | pronouns⇄np | VP⇄np",
         "m₁": {
             "texts": [
                 "هم جانشین NP₁,NP₂,NP₃ و np بعد از حرف اضافه",
